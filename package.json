@@ -1,0 +1,20 @@
+{
+  "name": "vsocheckout",
+  "version": "0.1.0",
+  "description": "Provides a status check to vsohelper and git commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "set DEBUG=vsocheckout:* && mocha"
+  },
+  "keywords": [
+    "git",
+    "vsts"
+  ],
+  "author": "Shawn Cicoria",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "git-controller": "pct-tr22/git-controller#moremethods",
+    "superagent": "^1.6.1"
+  }
+}
